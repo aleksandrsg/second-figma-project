@@ -1,1 +1,1 @@
-# second-firma-project
+# second-figma-project
