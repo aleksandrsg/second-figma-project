@@ -136,3 +136,10 @@ max-width: 315px;
     font-size: 18px;
     font-weight: 700;
 }
+
+/* CSS Grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
