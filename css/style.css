@@ -47,6 +47,16 @@ body {
     color: #66C05D;
     font-size: 36px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg);
+    margin-right: 10px;
 }
 
 .header-info span{
@@ -76,3 +86,33 @@ hr {
     background-color:#66C05D;
     height: 1px;
 }
+
+/* Banner */
+.title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner p{
+margin-bottom: 50px;
+max-width: 315px;
+}
+
+.banner {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+.btn{
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
